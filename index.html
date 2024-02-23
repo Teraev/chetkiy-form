@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+
+   
+</head>
+
+<body>
+
+    <div class="head">
+        <h1>Example form</h1>
+    </div>
+    <div class="head2">
+        <p>All: 15</p>
+        <p>Need: 12</p>
+        <p class="success">Success: <span>0</span>/12</p>
+        <p class="eror">Error: <span>0</span>/7</p>
+    </div>
+
+
+    <form name="signup">
+        <div class="col">
+            <label class="req" for="name">
+                <span>Name</span>
+                <input id="name" type="text" name="name" placeholder="name" />
+            </label>
+            <label class="req" for="surname">
+                <span>surname</span>
+                <input id="surname" type="text" name="surname" placeholder="surname" />
+            </label>
+            <label class="req" for="phone">
+                <span>phone number</span>
+                <input id="phone" type="number" name="phone" placeholder="phone" />
+            </label>
+            <label class="req" for="Moms name">
+                <span>Mom's name</span>
+                <input id="Moms name" type="text" name="Moms name" placeholder="Moms name" />
+            </label>
+             <label class="req" for="Paps name">
+                <span> Pap's Name</span>
+                <input id="Paps name" type="text" name="Paps name" placeholder="Paps name" />
+            </label>
+            <label class="unreq" for="Home">
+                <span> Home number</span>
+                <input id="Home" type="text" name="Home" placeholder="Home" />
+            </label>
+        </div>
+
+        <div class="col">
+            <label class="unreq" for="Car">
+                <span>Car number</span>
+                <input id="Car" type="text" name="Car" placeholder="Car" />
+              </label>
+              <label class="req" for="JS">
+                <span>What is JS</span>
+                <input id="JS" type="text" name="JS" placeholder="JS" />
+              </label>
+              <label class="unreq" for="HTML">
+                <span>What is HTML</span>
+                <input id="HTML" type="text" name="HTML" placeholder="HTML" />
+              </label>
+              <label class="req" for="CSS">
+                <span>What is CSS</span>
+                <input id="CSS" type="text" name="CSS" placeholder="CSS" />
+              </label>
+              <label class="unreq" for="Job">
+                <span>Job</span>
+                <input id="Job" type="text" name="Job" placeholder="Job" />
+              </label>
+              <label class="unreq" for="City">
+                <span>City</span>
+                <input id="City" type="text" name="City" placeholder="City" />
+              </label>
+        </div>
+        <button>submit</button>
+    </form>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
